@@ -1,15 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
+/* Fallback fonts */
+/* Choose commonly available fonts for each font family */
+/* For example, Arial for sans-serif and Georgia for serif */
 body {
+  font-family: "Open Sans", Arial, sans-serif !important;
   margin: 0;
-  font-family: "Montserrat", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(10, 10, 10, 1));
 }
 
+/* Apply the font to h1 */
 h1 {
-  font-family: "Orbitron", sans-serif !important;
+  font-family: "Montserrat", "Open Sans", Arial, sans-serif !important;
+  font-weight: 400; /* Adjust to your desired font weight */
 }
-
