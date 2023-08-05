@@ -19,7 +19,7 @@ function Home() {
 
               <h1 className="heading-name">
               
-                <strong className="main-name"> NESSA KODO</strong>
+                <strong className="main-name"> Your Portfolio</strong>
               </h1>
 
               <div >
