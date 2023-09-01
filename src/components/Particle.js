@@ -8,14 +8,14 @@ function Particle() {
       params={{
         particles: {
           number: {
-            value: 100,
+            value: 0,
             density: {
-              enable: true,
+              enable: false,
               value_area: 400,
             },
           },
           line_linked: {
-            enable: true,
+            enable: false,
             opacity: 0.08,
           },
           move: {
@@ -27,7 +27,7 @@ function Particle() {
           },
           opacity: {
             anim: {
-              enable: true,
+              enable: false,
               speed: 3,
               opacity_min: 0.1,
             },
@@ -36,7 +36,7 @@ function Particle() {
         interactivity: {
           events: {
             onclick: {
-              enable: true,
+              enable: false,
               mode: "push",
             },
           },
@@ -46,7 +46,7 @@ function Particle() {
             },
           },
         },
-        retina_detect: true,
+        retina_detect: false,
       }}
     />
   );
