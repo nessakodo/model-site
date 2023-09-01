@@ -7,7 +7,7 @@ function Type() {
       options={{
         strings: [
           "Your Site.",
-          "Your Ideas.",
+          "Your Business.",
           "Your Showcase.",
 
         ],

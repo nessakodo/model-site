@@ -191,8 +191,8 @@ button:focus {
 
 
 .logo {
-  height: 4.5em !important;
-  /* width: 5em !important; */
+  height: 5em !important;
+  width: 5.5em !important;
   margin-left: -0.5em;
   margin-top: 1em;
 }
